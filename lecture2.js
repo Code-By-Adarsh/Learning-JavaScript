@@ -41,3 +41,11 @@ console.log("a == b ->",a==b);
 console.log("a != b ->",a!=b);
 console.log("a === b ->",a===b);
 console.log("a !== b ->",a!==b);
+//In same way we use >,<,>=,<=
+
+// Logical Operator
+let cond1 = a == b; //true
+let cond2 = a > b; //false
+console.log("cond1 && cond2 -> ",cond1 && cond2);
+console.log("cond1 || cond2 -> ",cond1 || cond2);
+console.log("!(a>b) -> ",!(a>b));
