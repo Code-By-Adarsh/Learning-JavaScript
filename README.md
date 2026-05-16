@@ -60,6 +60,20 @@ Learning-Javascript/
 
 ---
 
+---
+
+## 📌 Index:
+- console
+- variable
+- let, cont, var
+- data types, objects
+- comments
+- operators
+- conditional statements(if, else, else if)
+- alert, prompt
+
+---
+
 ## 📌 Why this repo?
 
 I am a CS student building toward QA Automation. Before jumping into Playwright, I am strengthening my JS/TS fundamentals so that writing and maintaining test scripts feels natural — not forced.
