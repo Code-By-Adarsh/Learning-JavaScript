@@ -60,8 +60,6 @@ Learning-Javascript/
 
 ---
 
----
-
 ## 📌 Index:
 - console
 - variable
