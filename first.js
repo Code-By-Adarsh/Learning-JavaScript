@@ -3,6 +3,8 @@
 console.log("RCB - IPL 2026 Champion");
 console.log("RCB - IPL 2025 Champion");
 console.log("Adarsh Mishra");
+console.warn("This is warning")
+console.error("This is an error")
 
 // variable
 
@@ -38,7 +40,7 @@ var age5 = 17;
 age5 = 16;
 console.log(age5);
 
-// data types
+// data types - Primitive
 console.log(typeof(age1));
 console.log(typeof(King));
 console.log(typeof(Choker));
@@ -51,6 +53,8 @@ let y = Symbol("RCB");
 console.log(y);
 console.log(typeof(y));
 
+// DataTypes - Nonprimitive
+//1.Object,2.Array,3.Function
 // object
 const team = {
     name : "RCB",
@@ -70,3 +74,10 @@ console.log("Captian = ",team.captian);
 
 team["captian"] = "Faf du plesis";
 console.log("Captian = ",team.captian);
+
+//Some useful keywords
+console.log("Adarsh") //for message
+alert("This is only for adult!")
+confirm("Are you an adult?") //for confirmation
+let a = prompt("Enter your name: ")
+console.log(`Username is : ${a}`)
