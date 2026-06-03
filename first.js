@@ -64,6 +64,7 @@ const team = {
     fighter : true,
     fanbase : 1000000000000000
 }
+
 console.log(team);
 console.log(typeof(team));
 console.log("Captian = ",team.captian);
