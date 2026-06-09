@@ -1,4 +1,4 @@
-var a = [10,20,30,40,50]
+var a = [10,20,30,40,50,[60,70,80]]
 console.log(a)
 
 a.push(60) // for adding the element in array
@@ -37,7 +37,8 @@ var team = {
 
         return 18
     },
-    championYear1 : [2025,2026]
+    championYear1 : [2025,2026],
+    obj:{orangeCap:"Virat Kohli",purpleCap:"Bhuvi"}
 }
 
 console.log(team)

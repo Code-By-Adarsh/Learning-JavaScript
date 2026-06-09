@@ -78,7 +78,9 @@ console.log("Captian = ",team.captian);
 
 //Some useful keywords
 console.log("Adarsh") //for message
-alert("This is only for adult!")
+console.warn("Be aware") //for warning
+console.error("I am error") //for intentional error
+alert("This is only for adult!") //for alert popup block msg
 confirm("Are you an adult?") //for confirmation
 let a = prompt("Enter your name: ")
 console.log(`Username is : ${a}`)

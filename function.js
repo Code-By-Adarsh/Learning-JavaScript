@@ -27,8 +27,19 @@ var ipl2029 = function(){
     console.log("RCB")
 }
 
+//3rd type function - Arrow function(ES6)
 var ipl2030 = ()=>{
     console.log("RCB")
+}
+
+function papa(){
+    console.log("Papa")
+
+    function bachha(){
+        console.log("Bachha")
+    }
+
+   return bachha;
 }
 
 //Calling function
@@ -40,3 +51,5 @@ ipl2028()
 console.log(`Boss ${ipl2028()}`)
 ipl2029()
 ipl2030()
+const genericChild = papa()
+genericChild()
