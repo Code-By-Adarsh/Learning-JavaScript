@@ -49,6 +49,9 @@ for(let details in team){
 
 console.log(team.slogan())
 
+console.log(team["obj"]["orangeCap"])
+console.log(team.obj.purpleCap)
+
 //Important thing--------------------
 
 var a = [
