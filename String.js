@@ -1,4 +1,5 @@
 //Strings are immutable
+//length,indices,template literal,touppercase,tolowercase,concat,trim,slice,replace,replaceall,charat
 
 //Create string
 let person = "Adarsh";
