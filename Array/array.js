@@ -1,5 +1,5 @@
 //Array -> Collections of elements in linear way and mutable
-//length,mutable,loop,push,pop,tostring,toreversed,concat,unshift,shift,slice
+//length,mutable,loop,push,pop,tostring,toreversed,concat,unshift,shift,slice,splice
 
 let arr1 = [17,18,45,7,100]
 console.log(arr1)
