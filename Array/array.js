@@ -79,9 +79,29 @@ console.log(playerName.slice()) //same duplicate of real array
 //splice() ->changes the original array(add,remove,replace)
 //splice(startidx,noofelement,newelement)
 var arr4 = [1,2,3,4,5]
+//for replacing
 console.log(arr4.splice(4,1,500)) //5
 console.log(arr4) //1,2,3,4,500
-console.log(arr4.splice(5,0,600))
+
+//for adding
+console.log(arr4.splice(5,0,600)) //[]
 console.log(arr4)
-console.log(arr4.splice(5,0,0))
-console.log(arr4)
+
+//for removing
+console.log(arr4.splice(2,1)) //3
+console.log(arr4) //1,2,4,500,600
+
+console.log(arr4.splice(3)) //500,600
+
+//lets practice 3
+var companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+
+console.log(companies)
+companies.shift()
+console.log(companies)
+
+companies.splice(1,1,"Ola")
+console.log(companies)
+
+companies.push("Amazon")
+console.log(companies)
