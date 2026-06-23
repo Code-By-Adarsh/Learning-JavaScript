@@ -16,12 +16,14 @@ for(let i=1; i<=5; i++){
     console.log("Radhe Radhe");
 }
 
+/*
 var number = prompt("Enter your number: ");
 let sum = 0;
 for(let i=1; i<=number; i++){
     sum += i;
 }
 console.log("The sum of first ",number,"number : ",sum);
+*/
 
 /*
 --> While Loop
@@ -91,6 +93,7 @@ for(let i in team){
     console.log(i," : ",team[i]);
 }
 
+/*
 // Q.1 -> Print all even number from 0 to 100
 for(let i=0; i<=100; i++){
     if(i%2==0){
@@ -98,6 +101,21 @@ for(let i=0; i<=100; i++){
     }
 }
 
+
 for(let i=0; i<=100; i+=2){
     console.log(i);
+}
+*/
+
+//array with for in loop --> give us index value
+var a = [4,5,6,7,8]
+for(let i in a){
+    console.log(`${i}. ${a[i]}`)
+}
+
+//array with for of loop --> give us direct array value
+let b = 0
+for(let i of a){
+    console.log(`${b}. ${i}`)
+    b++
 }
