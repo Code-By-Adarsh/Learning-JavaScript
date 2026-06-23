@@ -40,6 +40,7 @@ let upperStr = str.toUpperCase();
 console.log(upperStr); // for all capital letter
 
 console.log(str.toLowerCase()); // for all smaller letter
+console.log(str)
 
 console.log(str.trim()); // for removing whitespace for starting and ending
 
