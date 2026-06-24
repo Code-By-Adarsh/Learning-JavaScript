@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.box{
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
