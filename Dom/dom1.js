@@ -19,3 +19,18 @@ console.dir(b)
 
 //we get blank when there is no id and class present
 console.log(document.getElementsByClassName('adarsh'))
+
+//selecting by tagname
+var c = document.getElementsByTagName("p")
+console.dir(c)
+
+//selecting by query selector
+var d = document.querySelector("p") //for first element
+console.dir(d)
+console.log(d)
+
+var e = document.querySelectorAll("p") //for all elements -> nodelist
+console.dir(e)
+
+var f = document.querySelector("#heading")
+console.dir(f)

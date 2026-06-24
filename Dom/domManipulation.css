@@ -12,6 +12,7 @@ html,body{
 
 #heading{
     color: white;
+    visibility: hidden;
 }
 
 h2{
@@ -26,5 +27,15 @@ p{
     margin-top: 20px;
     color: red;
     background-color: greenyellow;
+    border: 2px solid white;
+}
+
+.box{
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
     border: 2px solid white;
 }
