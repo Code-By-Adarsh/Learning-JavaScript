@@ -17,6 +17,7 @@ console.log(b.innerHTML)
 
 var c = document.querySelector("#heading1")
 c.innerText = "AB Devilliers"
+console.log(c.innerHTML)
 c.innerHTML = "<i>Rohit Sharma</i>"
 console.log(b.innerHTML)
 

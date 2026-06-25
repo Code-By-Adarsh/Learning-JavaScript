@@ -15,14 +15,15 @@ console.log(a.getAttributeNames())
 //node.append(el) --> add element at the end of node(inside)
 var b = document.querySelector(".anime")
 b.append(a)
+console.log(b.innerHTML)
 
 //node.prepend(el) --> add element at the start of node(inside)
 b.prepend(a)
-
-//console.log(b.innerHTML)
+console.log(b.innerHTML)
 
 //node.before(el) --> add element before the node(outside)
 b.before(a)
+console.log(b.innerHTML)
 
 //node.after(el) --> add element after the node(outside)
 b.after(a)
@@ -32,3 +33,7 @@ console.log(b.innerHTML)
 var c = document.querySelector("ul")
 console.log(c)
 console.dir(c)
+//c.remove()
+console.log(b.innerHTML)
+
+//c.removeAttribute("style") --> for removing the attribute

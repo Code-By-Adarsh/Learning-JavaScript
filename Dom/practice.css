@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.para{
+    background-color: yellow;
+    padding: 10px;
+}
+
+.newPara{
+    color: red;
+}
+
+.myPara{
+    border: 2px solid white;
+}
