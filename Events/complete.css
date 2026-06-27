@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+div{
+    height: 90px;
+    width: 90px;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+#btn3{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    background-color: burlywood;
+    color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(10px,150px);
+    font-size: 100px;
+    font-style: italic;
+}
