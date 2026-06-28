@@ -48,7 +48,7 @@ b.onclick = (evtObj) => {
 -node.removeEventListener(even,callback)
 
 note: the callback should be same to remove
-note: callback functions are function that are used as argument to another function.
+note: callback functions are function that are used as parameter to another function.
 */
 
 b.addEventListener("click",()=>{
@@ -90,3 +90,14 @@ c.addEventListener("click",()=>{
     }
 })
 
+//---------------------------------------------
+//target ->jis element pe click hua woh element — uske baad dot se uski koi bhi property access kar sako
+
+var g = document.querySelector(".list")
+g.addEventListener("click",(e)=>{
+    console.log(e) //event object
+    console.log(e.target) //complete html element
+    console.log(e.target.innerText) //text content
+    console.log(e.target.class) //class
+    console.log(e.target.id) //id
+})
