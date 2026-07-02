@@ -64,8 +64,10 @@ let promise = new Promise((resolve,reject)=>{
 //for handling resolve case
 const getPromise = () =>{
     return new Promise((resolve, reject)=>{
-        console.log("I am promise.")
-        resolve("Success")
+        setTimeout(()=>{
+            console.log("I am promise.")
+            resolve("Success ho gya bhai")
+        },8000)
     })
 }
 

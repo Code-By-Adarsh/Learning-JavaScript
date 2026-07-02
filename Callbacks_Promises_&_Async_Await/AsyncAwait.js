@@ -10,18 +10,19 @@ await pauses the execution of its surrounding async function until the promise i
 */
 
 //-------------------------------------------------
-/*
+
 function api(dataId){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             console.log("Weather Data:",dataId)
             resolve(200)
-        },1000)
+        },9000)
     })
 }
 
 async function getWeatherData() {
-    await api(100)
+    let data100 = await api(100)
+    console.log(data100) //200
     await api(200)
     await api(300)
     await api(400)
@@ -29,12 +30,13 @@ async function getWeatherData() {
 }
 
 let apiData = getWeatherData()  // <--------------Unneccesary call
-*/
+
 
 //---------------------------------------------
 //IIFE-Immediately invoked function expression
 //IIFE is a function that is called immediately as soon as it is defined.
 
+/*
 function api(dataId){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
@@ -51,3 +53,4 @@ function api(dataId){
     await api(400)
     await api(500)
 })()
+*/
